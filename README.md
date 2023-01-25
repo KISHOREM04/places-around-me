@@ -17,8 +17,9 @@ Write the needed HTML code.
 Run the Django server  and execute the HTML files
 
 ## Code:
+
+Map.html
 ```
-map.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,66 +27,67 @@ map.html
 </head>
 <body>
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>Kishore M (22008474)</b></font>
 </h3>
 <center>
-<img src="/static/images/map1.png" usemap="#MyCity" height="420" width="1100">
+<img src="/static/images/map.png" usemap="#MyCity" height="420" width="1100">
 <map name="MyCity">
-<area shape="circle" coords="190,50,20" href="/static/html/ghs.html" title="Govt. Higher Secondary School">
-<area shape="rectangle" coords="230,30,260,60" href="/static/html/rto.html" title="RTO Office">
-<area shape="circle" coords="400,350,50" href="/static/html/vk.html" title="Washerman's Lake">
-<area shape="circle" coords="400,200,75" href="/static/html/bus.html" title="Hi-Tech Bus Stand">
-<area shape="rectangle" coords="490,150,870,320" href="/static/html/park.html" title="Eco-Park">
+<area shape="circle" coords="800,420,70" href="/static/html/park.html" title="Eco-Park">
+<area shape="circle" coords="1000,420,100" href="/static/html/beach.html" title="Marina beach">
+<area shape="circle" coords="1000,100,200" href="/static/html/memo.html" title="DR MGR Memorial">
+<area shape="circle" coords="550,500,200" href="/static/html/temple.html" title="Murugan Temple">
+<area shape="rectangle" coords="290,200,870,320" href="/static/html/Gm.html" title="Hi-Tech Museum">
 </map>
 </center>
 </body>
 </html>
+```
 
-bus.html
+Temple.html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Bus Stand</title>
+<title>Murugan Temple</title>
 </head>
-<body bgcolor="white">
+<body bgcolor="orange">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Hi-Tech Bus Stand</b></font>
+<font color="blue"><b>Murugan Temple</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
-<font face="Courier New" size="5">
-<b>
-Ariyalur district is an administrative district, one of the 38 districts in the 
-state of Tamil Nadu in India. The district headquarters is located at Ariyalur. 
-The district encompasses an area of 1,949.31 km². Gangaikonda Cholapuram, 
-built by King Rajendra Cholan of Chola Empire, is a UNESCO World Heritage site 
-situated in this district. The district is also known for its rich prehistoric 
-fossils. Many fossils of gigantic molluscs and jawed fishes, at least one 
-fossilized dinosaur egg, and several fragmentary fossils of sauropod and theropod 
-dinosaurs have been discovered here. An on-site museum is being set up at 
-Keelapazhur to preserve and conserve fossils. Ariyalur is noted for its cement
- industries and Jayankondam has huge reserves of lignite.
-</b>
+<font face="Georgia" size="5">
+Vadapalani Andavar Temple is a Hindu temple dedicated to Lord Muruga. It is located in Vadapalani, Chennai, Tamil Nadu, India.
+It was renovated in the 1920s and a Rajagopuram was built during that time. The temple has grown in popularity, which is believed to be 
+in part due to the patronage of cinema stars.The temple started initially as a thatched hut where Murugan's ardent devotee Annaswami 
+Nayakar kept a portrait of the God and worshipped him. The temple was built on the same site as the thatched hut around 1890. 
+He was the founder and the first priest of the temple. The Vadapalani temple became famous because of the Arul Vaakku and the ability 
+to foretell events, as Annaswami Nayakar's words carried the truth. The devotees believed his sacred words gave effective solutions 
+to problems, including education, failure in examinations, marriage issues, ailments, and unemployment, among others. The disciple of 
+Annaswami Nayakar, Rathinasamy Chettiyar continued the tradition and was blessed with the same divine energy and ability of Arul Vaakku. 
+The temple underwent renovation in 1920, and over the past century, devotees throng the temple in huge numbers. 
 </font>
 </p>
 </body>
 </html>
+```
 
-park.html
+Park.html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Eco-Park</title>
 </head>
-<body bgcolor="purple">
+<body bgcolor="yellow">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>Eco-Park</b></font>
@@ -93,122 +95,138 @@ park.html
 <hr size="3" color="red">
 <p align="justify">
 <font face="Tahoma" size="5">
-A very nice park near Ariyalur bus stand. It is located surrounding the Chetty Lake. 
-Very superb calm place in ariyalur. Best for walking. Nice playing place for kids.
-Well maintained with jogging track. Source of ground water.
-Good place play with children.  In Banyan Tree lot of parrot stay like house. 
-Good sound and Air. Lake view park looks awesome.
-Very nice place at Ariyalur.
-Simple and relax with play area.
-</font>
-</p>
-</body>
-</html>
-
-rto.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>RTO Office</title>
-</head>
-<body bgcolor="pink">
-<h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>RTO Office</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Arial" size="5">
-<b>
-RTO office or the Regional Transport Office is a government body specifically established to oversee all transport-related operations in the country. RTOs are located throughout the country in each state and union territory. RTOs are responsible for enforcing the rules as laid down by the Motor Vehicle Act of 1988.
-The department also maintains a database of all the vehicles operating in the country as well as issues licenses for drivers. Besides, the RTO office also collects road taxes, supervises pollution checks, and ensures the enforcement of all road transportation rules. If you own or drive a vehicle in India, you will need to visit the RTO to get your vehicle registered, obtain a driver’s license or renew your driver’s license, etc.
-RTOs are also responsible for improving road and vehicle safety, especially to avoid accidents and other road fatalities.
-</b>
-</font>
-</p>
-</body>
-</html>
-
-ghs.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Govt. High. Sec. School</title>
-</head>
-<body bgcolor="blue">
-<h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Government Higher Secondary School</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Georgia" size="5">
-The main objectives of Ariyalur Government Higher Secondary School are 
-<ul>
-<li>To impart proper and qualified training to teachers and give them an attractive salary and incentives so that they are not tempted to quit and look elsewhere for jobs.</li>
-<li>To provide financial aids and grants wisely and judiciously.</li>
-<li>To Frame of syllabus and curriculum.</li>
-<li>To set aims and objectives of education.</li>
-</ul>
-</font>
-</p>
-</body>
-</html>
-
-vk.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Washerman’s Lake</title>
-</head>
-<body bgcolor="cyan">
-<h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Washerman's Lake</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Georgia" size="5">
-The uses of Washerman's Lake in Ariyalur District are 
-<ol type="1">
-<li>Lake is used for rain water harvesting.</li>
-<li>It is used for drinking.</li>
-<li>Pisculture.</li>
-<li>For bathing, washing clothes etc.</li>
-</ol>
+Semmozhi Poonga, variously spelled as Semmoli Poonga (literally translated to "Classical Language Park"), is a botanical garden in 
+Chennai set up jointly by the Horticulture and Agricultural Engineering department of the Government of Tamil Nadu. 
+The garden was opened on 24 November 2010 by then chief Minister M. Karunanidhi and is the first botanical garden in the city.
+The garden is located in the Cathedral Road–Anna Salai junction, opposite the American Consulate, on the erstwhile Drive-in Woodlands 
+Hotel. Encompassing an area of 20 acres (320 grounds),it was built at a cost of ₹ 80 million. More than 500 species of plants are 
+being grown in the area, in addition to the 80 trees that was already in existence during the development of the park, some of them 
+being more than 100 years old. The garden houses some of the popular exotic flora and rare plant species, medicinal and aromatic herbs.
+Many of the exotic plants are imported from countries like China and Thailand, including a plethora of bonsai varieties of ficus 
+microcarpa and ficus ginseng. 
 </font>
 </p>
 </body>
 </html>
 ```
+Gm.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hi-Tech Museum</title>
+</head>
+<body bgcolor="cyan">
+<h1 align="center">
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
+</h1>
+<h3 align="center">
+<font color="blue"><b>Hi-Tech Museum</b></font>
+</h3>
+<hr size="3" color="red">
+<p align="justify">
+<font face="Courier New" size="5">
+<b>
+The Government Museum, Chennai, or the Madras Museum, is a museum of human history and culture located in the 
+Government Museum Complex in the neighbourhood of Egmore in Chennai, India. Started in 1851, it is the second 
+oldest museum in India after the Indian Museum in Kolkata. It is particularly rich in archaeological and numismatic collections. 
+It has the largest collection of Roman antiquities outside Europe. Among them, the colossal Museum Theatre is one of the most impressive. 
+The National Art Gallery is also present in the museum premises. Built in Indo-Saracenic style, it houses rare European and Asian 
+painting of renowned artists, including that of Raja Ravi Varma. It had 0.6 million visitors in 2018. It has the richest collections 
+of bronze idols, 500 of them dating to 1000 BCE, in Asia.
+</b>
+</font>
+</p>
+</body>
+</html>
+```
+
+Beach.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marina beach</title>
+</head>
+<body bgcolor="pink">
+<h1 align="center">
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
+</h1>
+<h3 align="center">
+<font color="blue"><b> Marina beach </b></font>
+</h3>
+<hr size="3" color="red">
+<p align="justify">
+<font face="Arial" size="5">
+<b>
+Marina Beach, or simply the Marina, is a natural urban beach in Chennai, Tamil Nadu, India, along the Bay of Bengal.
+The beach runs from near Fort St. George in the north to Foreshore Estate in the south, a distance of 6.0 km (3.7 mi),making it the 
+second longest urban beach in the world, after Cox's Bazar Beach.It is a prominent landmark in Chennai.The Marina is a 
+primarily sandy beach, with an average width of 300 m (980 ft) and the width at the widest stretch is 437 m (1,434 ft). 
+Bathing and swimming at the Marina are legally prohibited because of the dangers, as the undercurrent is very turbulent. 
+It is one of the most crowded beaches in the country and attracts about 30,000 visitors a day during weekdays and 
+50,000 visitors a day during the weekends and on holidays.During summer months, about 15,000 to 20,000 people visit the beach daily.
+</b>
+</font>
+</p>
+</body>
+</html>
+```
+
+memo.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DR MGR Memorial</title>
+</head>
+<body bgcolor="lime">
+<h1 align="center">
+<font color="red"><b>Chennai - Detroit of Asia</b></font>
+</h1>
+<h3 align="center">
+<font color="blue"><b>DR MGR Memorial</b></font>
+</h3>
+<hr size="3" color="red">
+<p align="justify">
+<font face="Georgia" size="5">
+M.G.R Memorial Complex is a memorial complex built on the Marina beach in Chennai, Tamil Nadu, India. 
+Spread over 8.25 acres, the memorial is located adjacent to the Anna Memorial.It was built in memory of former chief ministers of 
+Tamil Nadu who died in office, M. G. Ramachandran and his protégé J. Jayalalithaa, whose bodies were buried at the site on 
+25 December 1987 and 6 December 2016, respectively.The memorial was built in 1988 and inaugurated by V. N. Janaki Ramachandran, 
+wife of M. G. Ramachandran, in May 1990.The memorial was remodelled and the complex was laid with marble and opened in 1992 by
+J. Jayalalithaa who had become the chief minister of the state of Tamil Nadu in the previous year. When J. Jayalalithaa died on
+5 December 2016, she was buried next to MGR. This structure was designed by architect K. Ramachandran, retired chief architect
+of PWD. Between 1996 and 1998, the mausoleum was again renovated at a cost of about ₹ 27.5 million. When the Indian Ocean tsunami 
+struck the seafront in December 2004, the memorial was damaged. Repair works cost approximately ₹ 13.3 million.
+</font>
+</p>
+</body>
+</html>
+```
+
 ## Output:
-![out1](https://user-images.githubusercontent.com/119404643/213127788-f5520022-e588-48a8-b88f-613a68465743.png)
+Map.html
+![out1](https://user-images.githubusercontent.com/119404643/214601414-8b7328bc-dc7d-4917-9445-5d13089ec6d6.png)
 
-![out2](https://user-images.githubusercontent.com/119404643/213127880-0c282187-d2db-459d-85c2-b04099d4fe92.png)
+Temple.html
+![out2](https://user-images.githubusercontent.com/119404643/214601493-04a925d5-18b6-4897-a936-5c225a225912.png)
 
-![out3](https://user-images.githubusercontent.com/119404643/213127998-c99334e2-d093-4c11-8e76-1abb4cdaae69.png)
 
-![out4](https://user-images.githubusercontent.com/119404643/213128106-4dcebee7-bcbb-48bf-859a-36153aa06ebd.png)
+Park.html
+![out3](https://user-images.githubusercontent.com/119404643/214601529-5e1d4b9f-46d2-4ee7-bbfe-29045227c35d.png)
 
-![out5](https://user-images.githubusercontent.com/119404643/213128209-20830f00-c0e5-487f-acee-a648d2f03355.png)
+Gm.html
+![out4](https://user-images.githubusercontent.com/119404643/214601585-03bf4796-e4c7-413f-9153-5437bb72d89f.png)
 
-![out6](https://user-images.githubusercontent.com/119404643/213128318-d1177018-6eb3-4c31-a9c1-9e73838b7065.png)
+Beach.html
+![out5](https://user-images.githubusercontent.com/119404643/214601674-ed53b4da-6eec-4fac-af49-832eac819984.png)
+
+Memo.html
+![out6](https://user-images.githubusercontent.com/119404643/214601752-1537e2d5-80e1-4d4e-af1d-ec7b68b4ee3e.png)
 
 ## HTML Validator:
-![HTML validator](https://user-images.githubusercontent.com/119404643/213128442-f8caa502-c422-4e8c-a60e-828b67127468.png)
+![valid](https://user-images.githubusercontent.com/119404643/214601802-5aa998eb-7490-4050-afad-951b4ba5c5fe.png)
 
 ## Result:
 The program for implementing image map is executed successfully.
-
-
-
-
-
-
-
